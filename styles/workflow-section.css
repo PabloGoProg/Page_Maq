@@ -1,0 +1,72 @@
+.workflow-section{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    padding-top: 3rem;
+}
+
+.workflow-text{
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+.work-title{
+    border-left: solid 0.15rem;
+    border-color: var(--yellow_palette);
+    padding: 0.25rem 0.35rem;
+}
+
+.work-title h2{
+    font-weight: 500;
+}
+
+.work-circles{
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+    padding: 0.2rem 4rem;
+    margin: 0 auto;
+}
+
+.circle-empty{
+    position: relative;
+    top: -0.6rem;
+    right: 12.5rem;
+    height: 8.5rem;  
+    width: 8.5rem; 
+    border: solid 0.1rem;  
+    border-radius: 50%;  
+    display: inline-block;
+    text-align: center;
+}
+
+.circle { 
+    height: 8.5rem;  
+    width: 8.5rem; 
+    border: none;  
+    border-radius: 50%;  
+    display: inline-block;
+    text-align: center;
+    background-color: var(--green_palette);
+    z-index:50;
+}
+
+
+
+.circle span{
+    color: white;
+    position: relative;
+    top: 2.3rem;
+    font-size: 3rem;
+    font-weight: 500; 
+}
+
+.circle-text {
+    position: relative;
+    left: 0.8rem;
+    top: 6.5rem;
+    font-weight: 500; 
+    font-size: 1.1rem; 
+  }
+
+
