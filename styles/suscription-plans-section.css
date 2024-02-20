@@ -1,0 +1,180 @@
+/* .suscription-plans-section {
+
+} */
+
+.plans-presentation {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.plans-presentation h2 {
+  font-size: 1.8rem;
+  font-weight: 450;
+  color: var(--blue_palette);
+  margin-bottom: 0.2rem;
+}
+
+.plans-presentation-line1 {
+  position: relative;
+  left: 5.5rem;
+  width: 7.5rem;
+  height: 0.1rem;
+  background-color: var(--yellow_palette);
+  transform: rotate(-3deg);
+}
+
+.plans-presentation-line2 {
+  position: relative;
+  left: 5.5rem;
+  bottom: 0.15rem;
+  width: 7.5rem;
+  height: 0.1rem;
+  background-color: var(--yellow_palette);
+  transform: rotate(4deg);
+}
+
+.plans-presentation-text {
+  font-size: 0.9rem;
+  font-weight: lighter;
+  text-align: center;
+  margin-top: 0.7rem;
+}
+
+.plan-time-select {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 1.2rem;
+}
+
+.plan-time-select button {
+  padding: 0.5rem 1.3rem;
+  background-color: white;
+  border: solid 1px #000;
+  border-radius: 0.5rem;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.plan-time-select button:hover {
+  border: none;
+  color: var(--white_palette);
+  background-color: var(--green_palette);
+  cursor: pointer;
+  transition: ease-in 0.1s;
+}
+
+.plans-card-section {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.plan-card {
+  width: 40%;
+  padding: 2rem 5rem 2rem 2rem;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0 0.5rem 0.1rem var(--gray_palette);
+  background:  url(../images/graycard.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 0.8rem;
+  gap: 1rem;
+}
+
+.plan-card:hover {
+  color: white;
+  background:  url(../images/greencard.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow: 0 0 0.5rem 0.1rem #888;
+  transition: ease-in 0.2s;
+}
+
+.plan-card:hover button {
+  cursor: pointer;
+  background-color: var(--blue_palette);
+  transition: ease-in 0.1s;
+}
+
+.plan-card:hover h3 {
+  color: white;
+}
+
+.plan-card:hover span{
+  color: white;
+}
+
+.plan-card-tittle {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: var(--blue_palette);
+}
+
+.billing-info {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.billing-info .plan-price {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: var(--blue_palette);
+}
+
+.plan-duration {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--gray_palette);
+  opacity: 0.6;
+  margin-top: 0.2rem;
+}
+
+.plan-services {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  color: var(--gray_palette);
+  opacity: 0.8;;
+}
+
+.single-service {
+  display: flex;
+  gap: 0.3rem;
+  align-items: center;
+}
+
+.single-service img {
+  background-image: url(../images/graycard-graybookmark.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.single-service:hover img {
+  background-image: url(../images/greencard-whitebookmark.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.buy-plan-button {
+  border: none;
+  background-color: var(--green_palette);
+  color: white;
+  padding: 0.7rem 1.2rem;
+  border-radius: 0.5rem;
+  font-size: 0.8rem;
+  font-weight: 400;
+  margin-top: 1.5rem;
+  max-width: fit-content;
+}
+
+.buy-plan-button:hover {
+  cursor: pointer;
+  background-color: var(--blue_palette);
+  transition: ease-in 0.1s;
+}
