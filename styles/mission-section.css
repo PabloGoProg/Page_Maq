@@ -1,0 +1,39 @@
+.mission-section{
+    display: grid; 
+    grid-template-columns: 1fr 1fr;
+}
+
+.mission-text{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 1.9rem;
+    gap: 1.5rem;   
+}
+
+.mission-text h1{
+    font-size:xx-large;
+    color: var(--blue_palette);
+    font-weight: 600;
+}
+
+.mission-text p{
+    font-size:medium;
+}
+
+.mission-text button{
+    border: none;
+    background-color: var(--green_palette);
+    text-align: center;
+    color: white;
+    padding: 0.5rem 0.8rem;
+    border-radius: 8px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    max-width: 6.5rem;
+}
+
+.mission-text button:hover{
+    background-color: var(--blue_palette);
+    cursor: pointer;
+    transition: ease-in 0.2s;
+}
