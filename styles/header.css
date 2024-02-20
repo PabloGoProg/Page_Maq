@@ -1,0 +1,98 @@
+.page-header {
+  max-width: 100vw;
+}
+
+.page-header-contact {
+  background-color: var(--blue_palette); 
+  max-height: fit-content;
+  color: #EEE;
+  display: flex;
+  padding: 0.5rem 5.5rem;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.65rem;
+}
+
+.page-header-contact ul {
+  display: flex;
+  list-style: none;
+  font-weight: 100;
+  gap: 2rem;
+  padding: 0;
+}
+
+.page-header-language {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  max-width: fit-content;
+  padding-right: 0.3rem;
+}
+
+.page-header-navbar {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0.3rem 0;
+  font-size: 1.1rem;
+  color: var(--blue_palette);
+}
+
+.page-header-navbar-options {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.6rem;
+  padding-right: 3rem;
+  list-style: none;
+  font-weight: 400;
+}
+
+.page-header-navbar-options li a {
+  color: var(--blue_palette);
+  text-decoration: none;
+}
+
+.page-header-navbar-options li a:hover {
+  color: var(--green_palette);
+  font-weight: 500;
+  cursor: pointer;
+  transition: ease-in 0.1s;
+}
+
+.page-header-navbar-tittle {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0.3rem;
+}
+
+.page-header-navbar-tittle-1 {
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding: 0;
+  margin: 0;
+}
+
+.page-header-navbar-tittle-2 {
+  position: relative;
+  bottom: 0.4rem;
+  font-size: 0.9rem;
+  font-weight: 500;
+  padding-top: 0;
+  padding-left: 0.6rem;
+  color: var(--green_palette);
+}
+
+.page-header-navbar-button {
+  border: none;
+  background-color: var(--green_palette);
+  color: white;
+  padding: 0.7rem 1rem;
+  border-radius: 8px;
+  font-size: 0.9rem;
+}
+
+.page-header-navbar-button:hover {
+  background-color: var(--blue_palette);
+  cursor: pointer;
+  transition: ease-in 0.2s;
+}

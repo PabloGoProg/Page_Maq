@@ -1,0 +1,106 @@
+.presentattion-section {
+  margin-top: 4.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  justify-content: center;
+  position: relative;
+  left: 1rem;
+}
+
+.presentattion-section-data {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.presentattion-section-tittle h1 {
+  text-decoration: none;
+  font-size: 2.8rem;
+  font-weight: 550;
+  color: var(--blue_palette);
+}
+
+.presentattion-section-tittle div {
+  display: flex;
+  gap: 0.7rem;
+  margin-top: 0.5rem;
+}
+
+.presentattion-section-tittle .presentattion-section-tittle-3 {
+  color: var(--green_palette);
+}
+
+.tittle-lines {
+  display: flex;
+  flex-direction: column;
+}
+
+.tittle-line-1 {
+  position: relative;
+  top: 2.8rem;
+  right: 10rem;
+  width: 7.5rem;
+  height: 0.15rem;
+  background-color: var(--yellow_palette);
+  transform: rotate(-4deg);
+}
+
+.tittle-line-2 {
+  position: relative;
+  top: 1.5rem;
+  right: 10rem;
+  width: 7.5rem;
+  height: 0.15rem;
+  background-color: var(--yellow_palette);
+  transform: rotate(2deg);
+}
+
+.presentattion-section-eslogan {
+  font-size: 0.78rem;
+  margin-top: 1rem;
+}
+
+.presentattion-section-data-call2action {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  color: var(--green_palette);
+}
+
+.presentattion-section-data-call2action button {
+  border: none;
+  background-color: var(--green_palette);
+  text-align: center;
+  color: white;
+  padding: 0.5rem 0.8rem;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.presentattion-section-data-call2action button:hover {
+  background-color: var(--blue_palette);
+  cursor: pointer;
+  transition: ease-in 0.2s;
+}
+
+.presentattion-section-data-call2action-video {
+  margin-top: 0.5rem;
+}
+
+.presentattion-section-data-clients {
+  display: flex;
+  gap: 1rem;
+}
+
+.presentattion-section-data-clients-2 {
+  font-size: 0.8rem;
+  font-weight: lighter;
+}
+
+.presentattion-section-image {
+  position: relative;
+  right: 1rem;
+  margin-top: 2.5rem;
+}
