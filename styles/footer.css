@@ -1,0 +1,127 @@
+.page-footer{
+    color: white;
+    margin-top: 5rem;
+    margin-left: -10rem;
+    margin-right: -10rem;
+}
+
+.footer-contain {
+    border-bottom: solid 0.1rem;
+    padding: 4rem 6rem;
+    background-image: url(../images/footer.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.suscribe-email{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.subscribe-text{
+    width: fit-content;
+}
+
+.input-join{
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+    padding-right: 28rem;
+    gap: 2rem;
+}
+
+.input-join input{
+    border: solid 0.1rem;
+    border-color: white;
+    border-radius: 0.5rem;
+    padding: 0.1rem 0.8rem;
+    background: none;
+    min-width: 80%;
+    color: white;
+}
+
+.input-join input::placeholder{
+    color: white;
+  }
+
+.input-join button{
+    color: white;
+    border: solid 0.1rem;
+    border-color: white;
+    border-radius: 0.5rem;
+    padding: 0.5rem 0.8rem;
+    background: none;
+    min-width: 5rem;
+}
+
+.subscribe-text{
+    flex-direction: column;
+    font-size: 0.9rem;
+}
+
+.subscribe-text span{
+    font-weight: 800;
+    font-size: 1.2rem;
+}
+
+.CMS{
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+}
+
+.CMS p{
+    font-size: 0.6rem;
+    font-weight: 100;
+}
+
+.general-information{
+    display: grid;
+    background-color: var(--blue_palette);
+    border-top: rgba(255, 255, 255, 0.1);
+    grid-template-columns: repeat(4, 1fr);
+    padding: 1rem 8rem;
+    gap: 3rem;
+}
+
+.general-information h4 span{
+    color: var(--green_palette);
+    padding-left: 0.8rem;
+}
+
+.icons{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.help-information{
+    padding-top: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+}
+
+.help-information h3{
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.help-information ul{
+    font-weight: 100;
+    font-size: 0.85rem;
+    padding-left: 1.6rem;
+}
+
+.help-information ul li{
+    margin-bottom: 1rem;
+}
+
+.copyright-section{
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem 0;
+    background-color: var(--gary_palette);
+    font-family: sans-serifx;
+}

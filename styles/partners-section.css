@@ -1,0 +1,39 @@
+.partners-section {
+  margin-top: 2rem;
+}
+
+.partners-section-tittle {
+  display: flex;
+  gap: 0.3rem;
+}
+
+.partners-section-tittle div {
+  width: 0.2rem;
+  min-height: fit-content;
+  background-color: var(--yellow_palette);
+}
+
+.partners-section-tittle h2 {
+  font-size: 1.6rem;
+  font-weight: 450;
+  color: var(--blue_palette);
+}
+
+.partners-logos {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 2rem;
+  position: relative;
+  top: -1rem;
+}
+
+.partners-logos .prime-partner {
+  position: relative;
+  top: 0.7rem;
+}
+
+.partners-logos .mysql-partner {
+  position: relative;
+  top: -1rem;
+}

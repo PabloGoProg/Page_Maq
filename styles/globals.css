@@ -1,0 +1,21 @@
+* {
+  --green_palette: #11CD82;
+  --yellow_palette: #F3C747;
+  --blue_palette: #130F40;
+  --white_palette: #F5F5F5;
+  --gary_palette: #D9D9D9;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Fredoka", 'Courier New', Courier, monospace;
+}
+
+.main-section {
+  display: flex;
+  flex-direction: column;
+  margin: 0 8rem;
+  gap: 2rem;
+}
