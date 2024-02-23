@@ -11,6 +11,17 @@
     margin-bottom: 1.8rem;
 }
 
+.row-container div{
+    padding:1rem
+}
+
+.row-container div:hover{
+    cursor: pointer;
+    border-radius: 1rem;
+    scale: 1.05;
+    transition: ease-in 0.2s;
+}
+
 .img{
     width: 100%;
 }
