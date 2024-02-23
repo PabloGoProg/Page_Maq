@@ -1,16 +1,34 @@
 .page-footer{
-    background-color: var(--blue_palette);
     color: white;
     padding: 1rem;
     margin-top: 5rem;
-    margin-left: -8rem;
-    margin-right: -8rem;
+    margin-left: -10rem;
+    margin-right: -10rem;
 }
 
 .footer-contain {
     border-bottom: solid 0.1rem;
-    border-color: white;
+    border-color: rgb(88, 66, 66);
     padding: 2rem 6rem;
+}
+
+.section-background {
+    position: relative;
+    margin-left: -8rem;
+    background: transparent;
+    top: 6.5rem;
+}
+
+.section-background {
+    border-top-left-radius: 40% 40%;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    
+    border-right: 140vw solid transparent;
+    border-bottom: 13rem solid var(--blue_palette);
+    z-index: -1;
+    overflow: hidden;
 }
 
 .suscribe-email{
@@ -77,8 +95,9 @@
 
 .general-information{
     display: grid;
+    background-color: var(--blue_palette);
     grid-template-columns: repeat(4, 1fr);
-    padding: 1rem 6rem;
+    padding: 1rem 8rem;
     gap: 3rem;
 }
 
