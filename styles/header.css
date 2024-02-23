@@ -7,7 +7,7 @@
   max-height: fit-content;
   color: #EEE;
   display: flex;
-  padding: 0.5rem 5.5rem;
+  padding: 0.5rem 8rem;
   justify-content: space-between;
   align-items: center;
   font-size: 0.65rem;
@@ -17,8 +17,20 @@
   display: flex;
   list-style: none;
   font-weight: 100;
-  gap: 2rem;
+  gap: 1.5rem;
   padding: 0;
+  opacity: 0.8;
+}
+
+.page-header-contact li {
+  display: flex;
+  gap: 0.4em;
+  align-items: center;
+  padding-right: 1.5rem;
+}
+
+.page-header-contact li:not(:last-child) {
+  border-right: white 1px solid;
 }
 
 .page-header-language {
@@ -27,13 +39,15 @@
   align-items: center;
   max-width: fit-content;
   padding-right: 0.3rem;
+  font-size: 1rem;
+  opacity: 0.8;
 }
 
 .page-header-navbar {
   display: flex;
   justify-content: space-evenly;
   padding: 0.3rem 0;
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   color: var(--blue_palette);
 }
 

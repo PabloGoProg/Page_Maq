@@ -1,5 +1,8 @@
+.blog-posts-section {
+  margin-top: 5rem;
+}
 
-.card-info{
+.card-info {
     display: grid;
     grid-template-rows: 1fr 1fr;
     position:relative;
@@ -10,7 +13,7 @@
     gap:0.6rem;
 }
 
-.card-info div{
+.card-info div {
     display: flex;
     gap:1rem;
 }
@@ -23,7 +26,7 @@
 .clients-section {
   display: flex;
   flex-direction: column;
-  margin: 5rem 0 0 0;
+  margin-top: 6rem;
 }
 
 .clients-section-tittle {
@@ -67,11 +70,11 @@
   bottom: 0;
   border-left: 20vw solid transparent;
   border-right: 80vw solid transparent;
-  border-bottom: 7rem solid white;
+  border-bottom: 11rem solid white;
 }
 
 .inverted_triangle {
-  top: 0; /* Ajustado top para que no sobresalga del contenedor */
+  top: 0; 
   border-left: 20vw solid transparent;
   border-right: 80vw solid transparent;
   border-top: 10rem solid white;
@@ -100,7 +103,6 @@
   width: 5rem;
   height: 5rem;
   border-radius: 50%;
-
 }
 
 .client-card:hover {
@@ -131,4 +133,58 @@
 
 .client-calification {
   display: flex;
+}
+
+.client-review {
+  display: flex;
+  flex-direction: column;
+  margin: 0 11rem 0 5rem;
+}
+
+.client-reviewer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 1.3rem;
+}
+
+.client-profile-photo {
+  width: 8rem;
+  height: 8rem;
+  border-radius: 50%;
+}
+
+.client-review-text {
+  display: flex;
+  color: white;
+  padding: 6rem 2rem 3rem 2rem;
+  font-size: 1.1rem;
+  margin-top: 1rem;
+  text-align: left;
+  background-color: rgba(255,255,255,0.1);
+  position: relative;
+  bottom: 6.5rem;
+  border-radius: 0.6rem;
+}
+
+.client-review-text span {
+  opacity: 0.6;
+  padding: 0 0.5rem;
+}
+
+.q_start .q_end {
+  opacity: 0.8;
+}
+
+.client-review-text .q_start {
+  position: relative;
+  bottom: 1.6rem;
+}
+
+.client-review-text .q_end {
+  position: relative;
+  left: 25.8rem;
+  top: 2.7rem;
 }
