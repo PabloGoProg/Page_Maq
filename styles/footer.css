@@ -132,3 +132,11 @@
 .help-information ul li{
     margin-bottom: 1rem;
 }
+
+.copyright-section{
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+}
