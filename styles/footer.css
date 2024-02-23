@@ -2,11 +2,12 @@
     background-color: var(--blue_palette);
     color: white;
     padding: 1rem;
+    margin-top: 5rem;
     margin-left: -8rem;
     margin-right: -8rem;
 }
 
-.footer-contain{
+.footer-contain {
     border-bottom: solid 0.1rem;
     border-color: white;
     padding: 2rem 6rem;
