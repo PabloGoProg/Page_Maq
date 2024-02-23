@@ -11,6 +11,22 @@
     margin-bottom: 1.8rem;
 }
 
+.row-container div{
+    padding:1rem
+}
+
+.row-container div:hover{
+    cursor: pointer;
+    border-radius: 1rem;
+    scale: 1.05;
+    transition: ease-in 0.2s;
+}
+
+.row-container p {
+    color: var(--blue_palette);
+    font-size: 1.6rem;
+}
+
 .img{
     width: 100%;
 }
@@ -21,6 +37,9 @@
 }
 
 .p span{
+    position: relative;
+    bottom: 0.5rem;
+    font-size: 1.2rem;
     font-weight: 500;
     color: rgb(97, 96, 96);
 }
