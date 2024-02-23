@@ -21,11 +21,15 @@
 }
 
 .work-circles{
-    display: flex;
-    flex-direction: row;
-    gap: 5rem;
-    padding: 0.2rem 4rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 3rem;
+    padding-top: 0.2rem;
     margin: 0 auto;
+}
+
+.work-circle:nth-of-type(3n+0) {
+    gap:0px;
 }
 
 .circle-empty{
@@ -50,8 +54,6 @@
     background-color: var(--green_palette);
     z-index:50;
 }
-
-
 
 .circle span{
     color: white;
