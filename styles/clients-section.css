@@ -26,7 +26,7 @@
 .clients-section {
   display: flex;
   flex-direction: column;
-  margin-top: 6rem;
+  margin: 5rem 0 0 0;
 }
 
 .clients-section-tittle {
@@ -175,7 +175,7 @@
 }
 
 .q_start .q_end {
-  opacity: 0.8;
+  opacity: 0.9;
 }
 
 .client-review-text .q_start {
